@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">parse.com</domain>
+        <domain includeSubdomains="true">3.17.152.230:80/parse/</domain>
+        <domain includeSubdomains="true">3.17.152.230:80</domain>
+    </domain-config>
+</network-security-config>
